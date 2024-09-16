@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Form</title>
+<title>Formulaire de Contact</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="contact-form">
     <h2>Se connecter</h2>
-    <form action="#">
+    <form id="contact-form">
         <div class="input-group">
-            <label for="name">Full Name</label>
+            <label for="name">Nom et Prénom</label>
             <input type="text" id="name" name="name" required>
         </div>
         <div class="input-group">
-            <label for="email">Gmail</label>
+            <label for="email">Adresse Gmail</label>
             <input type="email" id="email" name="email" required>
         </div>
         <div class="input-group">
-            <label for="phone">Phone Number</label>
+            <label for="phone">Numéro de Téléphone</label>
             <input type="tel" id="phone" name="phone" required>
         </div>
         <div class="input-group">
-            <label for="subject">Subject</label>
+            <label for="subject">Objet</label>
             <input type="text" id="subject" name="subject" required>
         </div>
         <div class="input-group">
-            <label for="options">Governorate</label>
-            <select id="options" name="options">
+            <label for="options">Gouvernorat</label>
+            <select id="options" name="options" required>
                 <option value="">Choisir votre gouvernorat</option>
                 <option value="Ariana">Ariana</option>
                 <option value="Beja">Beja</option>
@@ -56,7 +56,7 @@
                 <option value="Zaghouan">Zaghouan</option>
             </select>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Envoyer</button>
     </form>
 </div>
 </body>
